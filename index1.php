@@ -9,13 +9,17 @@ $legumes = array('Salade', 'Asperge', 'Carotte');
 //déclaration de tableau méthode 2
 $fruits = ['Pomme', 'Cerise', 'Banane'];
 // echo 'Legumes<br>';
-echo "$legumes<br>";
+foreach ($legumes as $value) {
+    echo $value ."<br>";
+}
 //La fonction print_r sert à afficher les tableaux (et objets) en profondeur.
 // Pour un tableau, ça affichera les index (aussi appelé "clé") et leur valeur.
 print_r($legumes);
 echo '<br>';
 // echo 'Fruits<br>';
-echo "$fruits<br>";
+foreach ($fruits as $value) {
+    echo  $value ."<br>";
+}
 print_r($fruits);
 echo '<br><br>';
 
